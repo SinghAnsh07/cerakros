@@ -5,7 +5,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(140, 120, 120);
+  margin: 0;
+  font-family: 'Swanky and Moo Moo', cursive;
 
+}
+h1 {
+  position: absolute;
+  top: 10px; /* Adjust this value if needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 2rem; /* Adjust as needed */
+  color: rgb(255, 184, 184); /* Ensure visibility */
+  text-shadow: 2px 2px 4px rgba(36, 222, 219, 0.5);
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3); /* Optional: Adds slight contrast */
+}
 :root {
   --dark-color: #000;
 }
