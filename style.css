@@ -24,6 +24,19 @@ h1 {
   padding: 10px;
   background: rgba(0, 0, 0, 0.3); /* Optional: Adds slight contrast */
 }
+h2 {
+  position: absolute;
+  top: 60px; /* Adjust this value if needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 1rem; /* Adjust as needed */
+  color: rgb(19, 108, 137); /* Ensure visibility */
+  text-shadow: 2px 2px 4px rgba(36, 222, 219, 0.5);
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3); /* Optional: Adds slight contrast */
+}
 :root {
   --dark-color: #000;
 }
