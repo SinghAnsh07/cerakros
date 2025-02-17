@@ -11,6 +11,10 @@
 <body class="not-loaded">
   <h1 class="heading">🌸❤️ For Aditro ❤️🌸</h1>
   <h2 class="heading2">-from J</h2>
+  <audio id="bg-audio" autoplay loop>
+    <source src="lily.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
     <div class="night"></div>
     <div class="flowers">
       <!-- <div class="flower flower--1">
@@ -343,5 +347,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let audio = document.getElementById("bg-audio");
+          audio.volume = 0.5; // Adjust volume if needed
+          audio.play().catch(error => console.log("Autoplay blocked:", error));
+      });
+    </script>
 </body>
 </html>
